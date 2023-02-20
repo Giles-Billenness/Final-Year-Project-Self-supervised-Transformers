@@ -1,5 +1,29 @@
 # Final Year Project - Self-supervised Transformers
 
+Coursework created for the COM3001 Professional Project module during my Computer Science BSc at Surrey University. Completed Year 3 Summer 2022.
+
+‘Self-supervised transformers for the downstream classification of diverse systemic conditions’, supervised by Professor H Lilian Tang.
+
+I experimented with unsupervised and transfer learning with vision transformers, specifically the Swin Transformer for the diagnosis of systemic medical conditions using retinal images (fundus images). 
+
+The data used for this project was sourced from largescale real-world public datasets, these were EyePACS and the UK biobank.
+
+One of the models created during the project achieved equivalent performance to previous industrystandard research in the diabetic retinopathy grading task using a significantly smaller image size. 
+
+This project also proved that the task of medical diagnosis from retinal images
+can be done, and with fewer computational resources than previously thought, with
+reasonable accuracy (to detect dementia, hypertension, and renal issues), as useful
+knowledge can be transferred from domains with an abundance of data (such as ImageNet
+or EyePACS) to domains with limited samples. 
+
+Finally, the model’s image focus points
+aligned with past theoretical research, showing that those areas can be potential research
+areas to discover biomarkers for disease. These focus points were identified using class
+activation mapping with the attention layers of the architecture. 
+
+Processing for this project was done using Surrey’s HPC AI cluster scheduled using HTCondor.
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 Code used throughout this project uses strings for paths to directories and file paths that will need to be replaced with the correct paths on your system.
