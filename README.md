@@ -1,1 +1,1 @@
-# Final-Year-Project-Self-supervised-Transformers
+# Final Year Project - Self-supervised Transformers
