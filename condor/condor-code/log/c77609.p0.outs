@@ -1,0 +1,2 @@
+=> merge config from configs/moby_swin_tiny.yaml
+RANK and WORLD_SIZE in environ: 0/1

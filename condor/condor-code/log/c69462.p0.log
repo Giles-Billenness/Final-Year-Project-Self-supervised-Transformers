@@ -1,0 +1,157 @@
+000 (69462.000.000) 2022-04-08 03:29:07 Job submitted from host: <131.227.81.127:9618?addrs=131.227.81.127-9618&alias=aisurrey-condor.surrey.ac.uk&noUDP&sock=schedd_2654421_9965>
+...
+040 (69462.000.000) 2022-04-08 03:29:08 Started transferring input files
+	Transferring to host: <131.227.80.172:9618?addrs=131.227.80.172-9618&alias=aisurrey01.surrey.ac.uk&noUDP&sock=slot1_59_4547_85d2_153638>
+...
+040 (69462.000.000) 2022-04-08 03:29:08 Finished transferring input files
+...
+001 (69462.000.000) 2022-04-08 03:29:09 Job executing on host: <131.227.80.172:9618?addrs=131.227.80.172-9618&alias=aisurrey01.surrey.ac.uk&noUDP&sock=startd_4290_2961>
+...
+006 (69462.000.000) 2022-04-08 03:29:18 Image size of job updated: 125
+	12  -  MemoryUsage of job (MB)
+	13224  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 03:34:19 Image size of job updated: 14654
+	14654  -  MemoryUsage of job (MB)
+	15005704  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 03:39:20 Image size of job updated: 14802
+	14802  -  MemoryUsage of job (MB)
+	15158216  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 03:44:20 Image size of job updated: 14892
+	14892  -  MemoryUsage of job (MB)
+	15249896  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 03:49:21 Image size of job updated: 14987
+	14987  -  MemoryUsage of job (MB)
+	15346924  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 03:54:22 Image size of job updated: 15103
+	15103  -  MemoryUsage of job (MB)
+	15465712  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 03:59:22 Image size of job updated: 15191
+	15191  -  MemoryUsage of job (MB)
+	15556432  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:04:23 Image size of job updated: 15277
+	15277  -  MemoryUsage of job (MB)
+	15643832  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:09:24 Image size of job updated: 15358
+	15358  -  MemoryUsage of job (MB)
+	15727180  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:14:24 Image size of job updated: 15386
+	15386  -  MemoryUsage of job (MB)
+	15755352  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:19:25 Image size of job updated: 15415
+	15415  -  MemoryUsage of job (MB)
+	15785564  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:24:26 Image size of job updated: 15446
+	15446  -  MemoryUsage of job (MB)
+	15817032  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:29:25 Image size of job updated: 15497
+	15497  -  MemoryUsage of job (MB)
+	15869540  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:34:26 Image size of job updated: 15514
+	15514  -  MemoryUsage of job (MB)
+	15886636  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:39:27 Image size of job updated: 15534
+	15534  -  MemoryUsage of job (MB)
+	15907044  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:44:27 Image size of job updated: 15592
+	15592  -  MemoryUsage of job (MB)
+	15966828  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:49:28 Image size of job updated: 15634
+	15634  -  MemoryUsage of job (MB)
+	16009840  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:54:29 Image size of job updated: 15650
+	15650  -  MemoryUsage of job (MB)
+	16026500  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 04:59:29 Image size of job updated: 15695
+	15695  -  MemoryUsage of job (MB)
+	16072272  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-08 05:04:30 Image size of job updated: 15696
+	15696  -  MemoryUsage of job (MB)
+	16073592  -  ResidentSetSize of job (KB)
+...
+004 (69462.000.000) 2022-04-11 03:39:13 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        4         4 
+	   Disk (KB)            : 15097         125    618733 
+	   Gpus (Average)       :     0           4         4 "GPU-36a655d1-c604-0db2-f8ee-bf0e0ad128fb,GPU-fe446e8b-007f-e048-cd1c-41ba266978c3,GPU-5868899d-1d9a-6d46-f057-90abf099adfd,GPU-551e2112-58c0-b44d-d64c-cdc1493acd1c"
+	   GpusMemory (MB)      : 10213                       
+	   Memory (MB)          : 15696       18432     18432 
+...
+040 (69462.000.000) 2022-04-11 03:39:45 Started transferring input files
+	Transferring to host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=slot1_44_5620_8c5e_54325>
+...
+040 (69462.000.000) 2022-04-11 03:39:45 Finished transferring input files
+...
+001 (69462.000.000) 2022-04-11 03:39:46 Job executing on host: <131.227.80.190:9618?addrs=131.227.80.190-9618&alias=aisurrey10.surrey.ac.uk&noUDP&sock=startd_4443_1b5f>
+...
+006 (69462.000.000) 2022-04-11 04:40:01 Image size of job updated: 17500
+	15718  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 04:45:02 Image size of job updated: 17500
+	15745  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 04:50:03 Image size of job updated: 17500
+	15820  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 04:55:03 Image size of job updated: 17500
+	15838  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 05:00:04 Image size of job updated: 17500
+	15859  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 05:05:04 Image size of job updated: 17500
+	15875  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 05:10:05 Image size of job updated: 17500
+	15924  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+006 (69462.000.000) 2022-04-11 05:15:05 Image size of job updated: 17500
+	15929  -  MemoryUsage of job (MB)
+	17500000  -  ResidentSetSize of job (KB)
+...
+004 (69462.000.000) 2022-04-11 15:49:11 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        4         4 
+	   Disk (KB)            :  2764       17500    472216 
+	   Gpus (Average)       :     0           4         4 "GPU-85c653d0-d85f-963d-5950-363499bbb660,GPU-1afec2e8-d3aa-c772-f762-bcfbceee2109,GPU-1ca663a6-28a2-1723-51c0-4367e1cef787,GPU-837210c5-fc4c-1d71-44af-89eaf40409fe"
+	   GpusMemory (MB)      : 10213                       
+	   Memory (MB)          : 15929       18432     18432 
+...
+009 (69462.000.000) 2022-04-11 15:49:11 Job was aborted.
+	via condor_rm (by user gb00538)
+...

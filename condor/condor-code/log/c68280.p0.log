@@ -1,0 +1,53 @@
+000 (68280.000.000) 2022-03-29 07:38:42 Job submitted from host: <131.227.81.127:9618?addrs=131.227.81.127-9618&alias=aisurrey-condor.surrey.ac.uk&noUDP&sock=schedd_2654421_9965>
+...
+040 (68280.000.000) 2022-03-29 07:38:44 Finished transferring input files
+...
+001 (68280.000.000) 2022-03-29 07:38:45 Job executing on host: <131.227.80.134:9618?addrs=131.227.80.134-9618&alias=aisurrey19.surrey.ac.uk&noUDP&sock=startd_4112_1186>
+...
+006 (68280.000.000) 2022-03-29 07:38:53 Image size of job updated: 324012
+	3  -  MemoryUsage of job (MB)
+	2784  -  ResidentSetSize of job (KB)
+...
+006 (68280.000.000) 2022-03-29 07:43:53 Image size of job updated: 324012
+	3  -  MemoryUsage of job (MB)
+	2804  -  ResidentSetSize of job (KB)
+...
+006 (68280.000.000) 2022-03-29 07:48:54 Image size of job updated: 324012
+	3  -  MemoryUsage of job (MB)
+	2808  -  ResidentSetSize of job (KB)
+...
+006 (68280.000.000) 2022-03-29 07:53:54 Image size of job updated: 324012
+	3  -  MemoryUsage of job (MB)
+	2828  -  ResidentSetSize of job (KB)
+...
+006 (68280.000.000) 2022-03-29 08:08:56 Image size of job updated: 324012
+	3  -  MemoryUsage of job (MB)
+	2832  -  ResidentSetSize of job (KB)
+...
+006 (68280.000.000) 2022-03-29 08:23:58 Image size of job updated: 324012
+	3  -  MemoryUsage of job (MB)
+	2844  -  ResidentSetSize of job (KB)
+...
+006 (68280.000.000) 2022-03-29 08:28:28 Image size of job updated: 324012
+	4547  -  MemoryUsage of job (MB)
+	4656652  -  ResidentSetSize of job (KB)
+...
+040 (68280.000.000) 2022-03-29 08:28:28 Started transferring output files
+...
+040 (68280.000.000) 2022-03-29 08:28:28 Finished transferring output files
+...
+004 (68280.000.000) 2022-03-29 08:28:29 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            :    55         125    652975 
+	   Gpus (Average)       :     0.00        1         1 "CUDA6"
+	   GpusMemory (MB)      :  1515                       
+	   Memory (MB)          :  4547        8192      8192 
+...
+009 (68280.000.000) 2022-03-29 08:28:29 Job was aborted.
+...

@@ -1,0 +1,40 @@
+000 (70474.000.000) 2022-04-18 13:31:20 Job submitted from host: <131.227.81.127:9618?addrs=131.227.81.127-9618&alias=aisurrey-condor.surrey.ac.uk&noUDP&sock=schedd_2654421_9965>
+...
+040 (70474.000.000) 2022-04-20 09:58:59 Started transferring input files
+	Transferring to host: <131.227.80.75:9618?addrs=131.227.80.75-9618&alias=nain.eps.surrey.ac.uk&noUDP&sock=slot1_1_4105_1800_15553>
+...
+040 (70474.000.000) 2022-04-20 09:58:59 Finished transferring input files
+...
+001 (70474.000.000) 2022-04-20 09:59:00 Job executing on host: <131.227.80.75:9618?addrs=131.227.80.75-9618&alias=nain.eps.surrey.ac.uk&noUDP&sock=startd_3739_38b2>
+...
+006 (70474.000.000) 2022-04-20 09:59:10 Image size of job updated: 125
+	6  -  MemoryUsage of job (MB)
+	6588  -  ResidentSetSize of job (KB)
+...
+006 (70474.000.000) 2022-04-20 10:02:41 Image size of job updated: 18777
+	18777  -  MemoryUsage of job (MB)
+	19228096  -  ResidentSetSize of job (KB)
+...
+040 (70474.000.000) 2022-04-20 10:02:41 Started transferring output files
+...
+040 (70474.000.000) 2022-04-20 10:02:42 Finished transferring output files
+...
+005 (70474.000.000) 2022-04-20 10:02:43 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:15:12, Sys 0 00:05:53  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:15:12, Sys 0 00:05:53  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	53072  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	53072  -  Total Bytes Sent By Job
+	121432  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.01        4         4 
+	   Disk (KB)            :   192         125    133051 
+	   Gpus (Average)       :                 4         4 "CUDA0,CUDA1,CUDA2,CUDA3"
+	   GpusMemory (MB)      : 32403                       
+	   Memory (MB)          : 18777      131072    131072 
+
+	Job terminated of its own accord at 2022-04-20T09:02:41Z.
+...

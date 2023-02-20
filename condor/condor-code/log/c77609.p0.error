@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/user/HS126/gb00538/condor-examples/Mine/Transformer-SSL/moby_main.py", line 200, in <module>
+    torch.cuda.set_device(config.LOCAL_RANK)
+  File "/user/HS126/gb00538/anaconda3/envs/transformer-ssl/lib/python3.7/site-packages/torch/cuda/__init__.py", line 263, in set_device
+    torch._C._cuda_setDevice(device)
+  File "/user/HS126/gb00538/anaconda3/envs/transformer-ssl/lib/python3.7/site-packages/torch/cuda/__init__.py", line 172, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero.
+Traceback (most recent call last):
+  File "/user/HS126/gb00538/anaconda3/envs/transformer-ssl/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/user/HS126/gb00538/anaconda3/envs/transformer-ssl/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/user/HS126/gb00538/anaconda3/envs/transformer-ssl/lib/python3.7/site-packages/torch/distributed/launch.py", line 260, in <module>
+    main()
+  File "/user/HS126/gb00538/anaconda3/envs/transformer-ssl/lib/python3.7/site-packages/torch/distributed/launch.py", line 256, in main
+    cmd=cmd)
+subprocess.CalledProcessError: Command '['/user/HS126/gb00538/anaconda3/envs/transformer-ssl/bin/python', '-u', '/user/HS126/gb00538/condor-examples/Mine/Transformer-SSL/moby_main.py', '--local_rank=0', '--cfg', 'configs/moby_swin_tiny.yaml', '--data-path', '/vol/research/Neurocomp/DR-Fundus-images/Demo/', '--batch-size', '8', '--output', '/vol/research/Neurocomp/DR-Fundus-images/Demo/', '--opts', 'TRAIN.EPOCHS', '5', 'TRAIN.WARMUP_EPOCHS', '1', 'MODEL.NUM_CLASSES', '5', 'DATA.IMG_SIZE', '224']' returned non-zero exit status 1.

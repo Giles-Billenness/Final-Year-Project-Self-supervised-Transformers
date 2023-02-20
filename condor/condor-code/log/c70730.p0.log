@@ -1,0 +1,46 @@
+000 (70730.000.000) 2022-04-20 20:07:24 Job submitted from host: <131.227.81.127:9618?addrs=131.227.81.127-9618&alias=aisurrey-condor.surrey.ac.uk&noUDP&sock=schedd_2654421_9965>
+...
+040 (70730.000.000) 2022-04-20 20:15:12 Finished transferring input files
+...
+001 (70730.000.000) 2022-04-20 20:15:13 Job executing on host: <131.227.80.134:9618?addrs=131.227.80.134-9618&alias=aisurrey19.surrey.ac.uk&noUDP&sock=startd_4112_1186>
+...
+006 (70730.000.000) 2022-04-20 20:15:22 Image size of job updated: 125
+	0  -  MemoryUsage of job (MB)
+	164  -  ResidentSetSize of job (KB)
+...
+006 (70730.000.000) 2022-04-20 20:20:23 Image size of job updated: 324016
+	3  -  MemoryUsage of job (MB)
+	2836  -  ResidentSetSize of job (KB)
+...
+006 (70730.000.000) 2022-04-20 20:30:24 Image size of job updated: 324016
+	3  -  MemoryUsage of job (MB)
+	2868  -  ResidentSetSize of job (KB)
+...
+006 (70730.000.000) 2022-04-20 20:45:25 Image size of job updated: 324016
+	3  -  MemoryUsage of job (MB)
+	2880  -  ResidentSetSize of job (KB)
+...
+006 (70730.000.000) 2022-04-20 20:58:56 Image size of job updated: 324016
+	5414  -  MemoryUsage of job (MB)
+	5544332  -  ResidentSetSize of job (KB)
+...
+040 (70730.000.000) 2022-04-20 20:58:56 Started transferring output files
+...
+040 (70730.000.000) 2022-04-20 20:58:56 Finished transferring output files
+...
+004 (70730.000.000) 2022-04-20 20:58:56 Job was evicted.
+	(0) CPU times
+		Usr 0 01:12:13, Sys 0 00:14:25  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            :    53         125    652975 
+	   Gpus (Average)       :     0           1         1 "CUDA0"
+	   GpusMemory (MB)      : 20139                       
+	   Memory (MB)          :  5414       65536     65536 
+...
+009 (70730.000.000) 2022-04-20 20:58:56 Job was aborted.
+	via condor_rm (by user gb00538)
+...

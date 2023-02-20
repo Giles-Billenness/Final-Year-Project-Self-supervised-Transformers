@@ -1,0 +1,47 @@
+##################
+#
+# Example Job for HTCondor
+#
+####################
+
+#---------------------------------------------
+# Name your batch so it's easy to distinguish in the q.
+JobBatchName = "SWIN transformers demo"
+
+# Executable and its arguments
+#---------------------------------------------
+executable = /bin/sh
+arguments = $ENV(PWD)/start.sh
+# ---------------------------------------------------
+# Universe (vanilla, docker)
+universe = vanilla
+
+# -------------------------------------------------
+# Event, out and error logs
+log = log/c$(cluster).p$(process).log
+output = log/c$(cluster).p$(process).outs
+error = log/c$(cluster).p$(process).error
+
+# -----------------------------------
+# File Transfer, Input, Output
+#should_transfer_files = YES
+#transfer_input_files = catch_signal_test.py
+#when_to_transfer_output = ON_EXIT
+when_to_transfer_output = ON_EXIT_OR_EVICT
+#Environment = TORCH_HOME='/user/HS501/qh00006/torch_home/'
+Environment = PYTHONIOENCODING=UTF-8
++CanCheckpoint = True
++JobRunTime = 72
++GPUMem = 11019
+# -------------------------------------
+# Requirements for the Job
+#requirements = (CUDADeviceName == "Quadro RTX 5000")
+# --------------------------------------
+# Resources
+request_GPUs = 1
+request_CPUs = 1
+request_memory = 8G
+# -----------------------------------
+# Queue commands
+queue 1
+

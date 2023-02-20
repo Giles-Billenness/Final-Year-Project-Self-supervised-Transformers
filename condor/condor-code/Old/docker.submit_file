@@ -1,0 +1,68 @@
+##################
+#
+# Example Job for HTCondor
+#
+####################
+
+#---------------------------------------------
+# Name your batch so it's easy to distinguish in the q.
+JobBatchName = "SWIN transformers fundus images docker"
+
+# Executable and its arguments
+#---------------------------------------------
+executable = /bin/sh
+arguments = $ENV(PWD)/start.sh
+# ---------------------------------------------------
+# Universe (vanilla, docker)
+universe = docker
+docker_image =nvcr.io/nvidia/pytorch:20.11-py3
+#native pytorch and cuda
+
+#dont work
+#for 10.1 nvcr.io/nvidia/pytorch:19.10-py3
+#for 10.2 nvcr.io/nvidia/pytorch:20.03-py3
+
+#for 11.1 nvcr.io/nvidia/pytorch:20.11-py3
+
+#for cuda 11.3 #nvcr.io/nvidia/pytorch:21.05-py3
+#for cuda 11.3.1 #nvcr.io/nvidia/pytorch:21.06-py3
+#most up to date #nvcr.io/nvidia/pytorch:22.03-py3
+
+#doesnt have preinstalled python & pytorch
+#nvidia/cuda:11.3.0-cudnn8-devel-ubuntu18.04
+#nvidia/cuda:11.3.0-devel-ubuntu18.04
+
+# -------------------------------------------------
+# Event, out and error logs
+log = log/c$(cluster).p$(process).log
+output = log/c$(cluster).p$(process).outs
+error = log/c$(cluster).p$(process).error
+
+# -----------------------------------
+# File Transfer, Input, Output
+#should_transfer_files = YES
+#transfer_input_files = catch_signal_test.py
+#when_to_transfer_output = ON_EXIT
+when_to_transfer_output = ON_EXIT_OR_EVICT
+#Environment = TORCH_HOME='/user/HS501/qh00006/torch_home/'
+Environment = PYTHONIOENCODING=UTF-8
+
+
+environment = "mount=$ENV(PWD),/vol/research/Neurocomp/DR-Fundus-images/FullSet/"
+
++CanCheckpoint = True
++JobRunTime = 1
++GPUMem = 15000
+# -------------------------------------
+# Requirements for the Job
+requirements = (CUDADeviceName == "GeForce RTX 3090")
+#(CUDADeviceName == "Quadro RTX 8000")
+# --------------------------------------
+# Resources
+request_GPUs = 3
+request_CPUs = 1
+request_memory = 18G
+# -----------------------------------
+# Queue commands
+queue 1
+

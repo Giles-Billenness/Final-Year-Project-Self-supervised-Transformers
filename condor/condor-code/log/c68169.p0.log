@@ -1,0 +1,46 @@
+000 (68169.000.000) 2022-03-27 20:34:16 Job submitted from host: <131.227.81.127:9618?addrs=131.227.81.127-9618&alias=aisurrey-condor.surrey.ac.uk&noUDP&sock=schedd_2654421_9965>
+...
+007 (68169.000.000) 2022-03-27 20:35:07 Shadow exception!
+	Error from slot1@aisurrey15.surrey.ac.uk: dprintf hit fatal errors
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (68169.000.000) 2022-03-27 20:39:16 Started transferring input files
+	Transferring to host: <131.227.80.133:9618?addrs=131.227.80.133-9618&alias=aisurrey18.surrey.ac.uk&noUDP&sock=slot1_45_4374_a0eb_20765>
+...
+040 (68169.000.000) 2022-03-27 20:39:16 Finished transferring input files
+...
+001 (68169.000.000) 2022-03-27 20:39:17 Job executing on host: <131.227.80.133:9618?addrs=131.227.80.133-9618&alias=aisurrey18.surrey.ac.uk&noUDP&sock=startd_4077_0fb5>
+...
+006 (68169.000.000) 2022-03-27 20:39:26 Image size of job updated: 125
+	24  -  MemoryUsage of job (MB)
+	25084  -  ResidentSetSize of job (KB)
+...
+006 (68169.000.000) 2022-03-27 20:44:26 Image size of job updated: 1698
+	1698  -  MemoryUsage of job (MB)
+	1739196  -  ResidentSetSize of job (KB)
+...
+006 (68169.000.000) 2022-03-27 20:49:26 Image size of job updated: 1698
+	1698  -  MemoryUsage of job (MB)
+	1739524  -  ResidentSetSize of job (KB)
+...
+006 (68169.000.000) 2022-03-27 20:52:12 Image size of job updated: 1702
+	1702  -  MemoryUsage of job (MB)
+	1743120  -  ResidentSetSize of job (KB)
+...
+004 (68169.000.000) 2022-03-27 20:52:13 Job was evicted.
+	(0) CPU times
+		Usr 0 00:12:26, Sys 0 00:00:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	121432  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            :   142         125    652975 
+	   Gpus (Average)       :     0.00        1         1 "CUDA1"
+	   GpusMemory (MB)      :   463                       
+	   Memory (MB)          :  1702        8192      8192 
+...
+009 (68169.000.000) 2022-03-27 20:52:13 Job was aborted.
+	via condor_rm (by user gb00538)
+...

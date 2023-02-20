@@ -1,0 +1,26 @@
+000 (68992.000.000) 2022-04-05 02:48:38 Job submitted from host: <131.227.81.127:9618?addrs=131.227.81.127-9618&alias=aisurrey-condor.surrey.ac.uk&noUDP&sock=schedd_2654421_9965>
+...
+040 (68992.000.000) 2022-04-05 02:48:39 Finished transferring input files
+...
+001 (68992.000.000) 2022-04-05 02:48:40 Job executing on host: <131.227.80.186:9618?addrs=131.227.80.186-9618&alias=aisurrey08.surrey.ac.uk&noUDP&sock=startd_4126_abd9>
+...
+006 (68992.000.000) 2022-04-05 02:48:48 Image size of job updated: 324020
+	3  -  MemoryUsage of job (MB)
+	2892  -  ResidentSetSize of job (KB)
+...
+006 (68992.000.000) 2022-04-05 03:03:49 Image size of job updated: 324020
+	3  -  MemoryUsage of job (MB)
+	2940  -  ResidentSetSize of job (KB)
+...
+007 (68992.000.000) 2022-04-05 03:05:03 Shadow exception!
+	Error from slot1@aisurrey08.surrey.ac.uk: Docker job has gone over memory limit of 16384 Mb
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (68992.000.000) 2022-04-05 03:05:03 Job was held.
+	Error from slot1@aisurrey08.surrey.ac.uk: Docker job has gone over memory limit of 16384 Mb
+	Code 34 Subcode 0
+...
+009 (68992.000.000) 2022-04-05 03:09:51 Job was aborted.
+	via condor_rm (by user gb00538)
+...
