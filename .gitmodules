@@ -1,3 +1,3 @@
-[submodule "C:\\Users\\giles\\Github\\Final-Year-Project-Self-supervised-Transformers/condor/condor-code/Swin-Transformer"]
-	path = C:\\Users\\giles\\Github\\Final-Year-Project-Self-supervised-Transformers/condor/condor-code/Swin-Transformer
+[submodule "condor/condor-code/Swin-Transformer"]
+	path = condor/condor-code/Swin-Transformer
 	url = git@github.com:Giles-Billenness/Swin-Transformer.git
