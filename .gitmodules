@@ -4,3 +4,6 @@
 [submodule "condor/condor-code/Transformer-SSL"]
 	path = condor/condor-code/Transformer-SSL-3090
 	url = git@github.com:Giles-Billenness/Transformer-SSL.git
+[submodule "condor/condor-code/Transformer-SSL-3090"]
+	path = condor/condor-code/Transformer-SSL-3090
+	url = git@github.com:Giles-Billenness/Transformer-SSL.git
