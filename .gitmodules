@@ -1,3 +1,6 @@
 [submodule "condor/condor-code/Swin-Transformer"]
 	path = condor/condor-code/Swin-Transformer
 	url = git@github.com:Giles-Billenness/Swin-Transformer.git
+[submodule "condor/condor-code/Transformer-SSL"]
+	path = condor/condor-code/Transformer-SSL-3090
+	url = git@github.com:Giles-Billenness/Transformer-SSL.git
