@@ -8,7 +8,3 @@
 	path = condor/condor-code/Transformer-SSL-3090-pre
 	url = git@github.com:Giles-Billenness/Transformer-SSL.git
 	branch = Load-moby-Models
-[submodule "condor/condor-code/Transformer-SSL"]
-	path = condor/condor-code/Transformer-SSL
-	url = git@github.com:Giles-Billenness/Transformer-SSL.git
-	branch = Heron-Machines
